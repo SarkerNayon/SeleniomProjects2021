@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15847" started-at="2021-09-05T22:28:35 EDT" finished-at="2021-09-05T22:28:51 EDT">
+  <suite name="Default suite" duration-ms="27082" started-at="2021-09-06T13:51:08 EDT" finished-at="2021-09-06T13:51:35 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15847" started-at="2021-09-05T22:28:35 EDT" finished-at="2021-09-05T22:28:51 EDT">
-      <class name="lec29_Selenium.B_use_of_get_and_click_button">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:lec29_Selenium.B_use_of_get_and_click_button@2bbf4b8b]" name="setUp" is-config="true" duration-ms="14777" started-at="2021-09-05T22:28:35 EDT" finished-at="2021-09-05T22:28:50 EDT">
+    <test name="Default test" duration-ms="27082" started-at="2021-09-06T13:51:08 EDT" finished-at="2021-09-06T13:51:35 EDT">
+      <class name="finacjing_selenium.A_wellcare_com">
+        <test-method status="PASS" signature="wellcareTest()[pri:0, instance:finacjing_selenium.A_wellcare_com@2bbf4b8b]" name="wellcareTest" is-config="true" duration-ms="7163" started-at="2021-09-06T13:51:08 EDT" finished-at="2021-09-06T13:51:16 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginButtonTest()[pri:0, instance:lec29_Selenium.B_use_of_get_and_click_button@2bbf4b8b]" name="loginButtonTest" duration-ms="894" started-at="2021-09-05T22:28:50 EDT" finished-at="2021-09-05T22:28:51 EDT">
+        </test-method> <!-- wellcareTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:finacjing_selenium.A_wellcare_com@2bbf4b8b]" name="loginTest" duration-ms="19722" started-at="2021-09-06T13:51:16 EDT" finished-at="2021-09-06T13:51:35 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginButtonTest -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:lec29_Selenium.B_use_of_get_and_click_button@2bbf4b8b]" name="tearUp" is-config="true" duration-ms="115" started-at="2021-09-05T22:28:51 EDT" finished-at="2021-09-05T22:28:51 EDT">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:finacjing_selenium.A_wellcare_com@2bbf4b8b]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2021-09-06T13:51:35 EDT" finished-at="2021-09-06T13:51:35 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearUp -->
-      </class> <!-- lec29_Selenium.B_use_of_get_and_click_button -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- finacjing_selenium.A_wellcare_com -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

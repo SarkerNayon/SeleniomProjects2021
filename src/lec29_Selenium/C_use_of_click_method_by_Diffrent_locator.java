@@ -15,7 +15,7 @@ public class C_use_of_click_method_by_Diffrent_locator {
 	@BeforeTest
 	public void setUp() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver",
-				"/Users/sarker/eclipse-workspace/SeleniumProject/Driver/chromedriver");
+				"/Users/sarker/eclipse-workspace/SeleniumProject2021/Driver/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://portaldev.cms.gov/portal/");
 		Thread.sleep(3333);

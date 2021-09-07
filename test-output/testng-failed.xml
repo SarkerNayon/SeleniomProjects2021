@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lec29_Selenium.B_use_of_get_and_click_button">
+      <class name="finacjing_selenium.A_wellcare_com">
         <methods>
-          <include name="setUp"/>
-          <include name="loginButtonTest"/>
-          <include name="tearUp"/>
+          <include name="loginTest"/>
+          <include name="wellcareTest"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- lec29_Selenium.B_use_of_get_and_click_button -->
+      </class> <!-- finacjing_selenium.A_wellcare_com -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

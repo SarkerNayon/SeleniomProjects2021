@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27082" started-at="2021-09-06T13:51:08 EDT" finished-at="2021-09-06T13:51:35 EDT">
+  <suite name="Default suite" duration-ms="9535" started-at="2021-09-07T22:54:55 EDT" finished-at="2021-09-07T22:55:05 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27082" started-at="2021-09-06T13:51:08 EDT" finished-at="2021-09-06T13:51:35 EDT">
-      <class name="finacjing_selenium.A_wellcare_com">
-        <test-method status="PASS" signature="wellcareTest()[pri:0, instance:finacjing_selenium.A_wellcare_com@2bbf4b8b]" name="wellcareTest" is-config="true" duration-ms="7163" started-at="2021-09-06T13:51:08 EDT" finished-at="2021-09-06T13:51:16 EDT">
+    <test name="Default test" duration-ms="9535" started-at="2021-09-07T22:54:55 EDT" finished-at="2021-09-07T22:55:05 EDT">
+      <class name="lec32_selenium_javascript.M_use_of_manage_by_driver">
+        <test-method status="PASS" signature="hoverOverActions()[pri:0, instance:lec32_selenium_javascript.M_use_of_manage_by_driver@2bbf4b8b]" name="hoverOverActions" is-config="true" duration-ms="2947" started-at="2021-09-07T22:54:55 EDT" finished-at="2021-09-07T22:54:58 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- wellcareTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:finacjing_selenium.A_wellcare_com@2bbf4b8b]" name="loginTest" duration-ms="19722" started-at="2021-09-06T13:51:16 EDT" finished-at="2021-09-06T13:51:35 EDT">
+        </test-method> <!-- hoverOverActions -->
+        <test-method status="PASS" signature="setASpecificSizeOfWindow()[pri:1, instance:lec32_selenium_javascript.M_use_of_manage_by_driver@2bbf4b8b]" name="setASpecificSizeOfWindow" duration-ms="6420" started-at="2021-09-07T22:54:58 EDT" finished-at="2021-09-07T22:55:05 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:finacjing_selenium.A_wellcare_com@2bbf4b8b]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2021-09-06T13:51:35 EDT" finished-at="2021-09-06T13:51:35 EDT">
+        </test-method> <!-- setASpecificSizeOfWindow -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:lec32_selenium_javascript.M_use_of_manage_by_driver@2bbf4b8b]" name="tearUp" is-config="true" duration-ms="96" started-at="2021-09-07T22:55:05 EDT" finished-at="2021-09-07T22:55:05 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- finacjing_selenium.A_wellcare_com -->
+        </test-method> <!-- tearUp -->
+      </class> <!-- lec32_selenium_javascript.M_use_of_manage_by_driver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

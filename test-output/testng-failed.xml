@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="finacjing_selenium.A_wellcare_com">
+      <class name="lec32_selenium_javascript.M_use_of_manage_by_driver">
         <methods>
-          <include name="loginTest"/>
-          <include name="wellcareTest"/>
-          <include name="closeBrowser"/>
+          <include name="waitForWindow"/>
+          <include name="tearUp"/>
+          <include name="hoverOverActions"/>
         </methods>
-      </class> <!-- finacjing_selenium.A_wellcare_com -->
+      </class> <!-- lec32_selenium_javascript.M_use_of_manage_by_driver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

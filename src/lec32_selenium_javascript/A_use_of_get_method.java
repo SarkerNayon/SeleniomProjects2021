@@ -1,4 +1,4 @@
-package hw10Q2selenium;
+package lec32_selenium_javascript;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,8 +9,10 @@ public class A_use_of_get_method {
 		System.setProperty("webdriver.chrome.driver",
 				"/Users/sarker/eclipse-workspace/SeleniumProject2021/Driver/chromedriver");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://www.bankofamerica.com");
+		driver.get("https://www.amazon.com");
 		Thread.sleep(3333);
 		driver.quit();
+
 	}
+
 }

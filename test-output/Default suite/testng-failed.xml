@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="lec32_selenium_javascript.M_use_of_manage_by_driver">
+      <class name="hw10Q2selenium.D_use_of_isDisplayed_method">
         <methods>
-          <include name="waitForWindow"/>
           <include name="tearUp"/>
-          <include name="hoverOverActions"/>
+          <include name="clickSearchButton"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- lec32_selenium_javascript.M_use_of_manage_by_driver -->
+      </class> <!-- hw10Q2selenium.D_use_of_isDisplayed_method -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

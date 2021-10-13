@@ -12,7 +12,8 @@ public class A_wellcare_com {
 
 	@BeforeTest
 	public void wellcareTest() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver","/Users/sarker/eclipse-workspace/SeleniumProject2021/Driver/chromedriver");
+		System.setProperty("webdriver.chrome.driver",
+				"/Users/sarker/eclipse-workspace/SeleniumProject2021/Driver/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://www.wellcare.com/");
 		driver.manage().window().maximize();
@@ -35,11 +36,10 @@ public class A_wellcare_com {
 		driver.findElement(By.xpath("//li[text()='Medicare']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("registrtionBtn")).click();
-		
+
 		Thread.sleep(5000);
-		
+
 	}
-	
 
 	@AfterTest
 	public void closeBrowser() {

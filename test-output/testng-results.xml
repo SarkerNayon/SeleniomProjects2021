@@ -2,34 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15528" started-at="2021-09-17T02:39:04 EDT" finished-at="2021-09-17T02:39:19 EDT">
+  <suite name="Default suite" duration-ms="6122" started-at="2021-10-13T17:06:11 EDT" finished-at="2021-10-13T17:06:17 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15528" started-at="2021-09-17T02:39:04 EDT" finished-at="2021-09-17T02:39:19 EDT">
-      <class name="hw11Q2selenium.I_use_of_get_text_method">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:hw11Q2selenium.I_use_of_get_text_method@3cb1ffe6]" name="setUp" is-config="true" duration-ms="11116" started-at="2021-09-17T02:39:04 EDT" finished-at="2021-09-17T02:39:15 EDT">
+    <test name="Default test" duration-ms="6122" started-at="2021-10-13T17:06:11 EDT" finished-at="2021-10-13T17:06:17 EDT">
+      <class name="selfPrectice.A_use_of_right_click_acction">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selfPrectice.A_use_of_right_click_acction@3cb1ffe6]" name="setUp" is-config="true" duration-ms="5810" started-at="2021-10-13T17:06:11 EDT" finished-at="2021-10-13T17:06:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="AccountDropDown()[pri:1, instance:hw11Q2selenium.I_use_of_get_text_method@3cb1ffe6]" name="AccountDropDown" duration-ms="4229" started-at="2021-09-17T02:39:15 EDT" finished-at="2021-09-17T02:39:19 EDT">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method status="FAIL" signature="rightClick()[pri:0, instance:selfPrectice.A_use_of_right_click_acction@3cb1ffe6]" name="rightClick" duration-ms="192" started-at="2021-10-13T17:06:17 EDT" finished-at="2021-10-13T17:06:17 EDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=93.0.4577.82)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='NAV_CONTACT_US']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'Nayons-MacBook-Air.local', ip: '2603:7000:cd40:f100:e935:6413:7543:3de0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
+System info: host: 'Nayons-MacBook-Air.local', ip: '2603:7000:cd40:f100:f4eb:148b:7cf0:8b8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/13/12p46rc91jj...}, goog:chromeOptions: {debuggerAddress: localhost:62776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c30590ea4159d59c7ebed7422d45b01]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/13/12p46rc91jj...}, goog:chromeOptions: {debuggerAddress: localhost:58342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e0abd37c7dbb2d8532b2baab340b764
+*** Element info: {Using=xpath, value=//a[@id='NAV_CONTACT_US']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=93.0.4577.82)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='NAV_CONTACT_US']"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
-System info: host: 'Nayons-MacBook-Air.local', ip: '2603:7000:cd40:f100:e935:6413:7543:3de0%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
+System info: host: 'Nayons-MacBook-Air.local', ip: '2603:7000:cd40:f100:f4eb:148b:7cf0:8b8a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_291'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.15 (660fc11082ba5..., userDataDir: /var/folders/13/12p46rc91jj...}, goog:chromeOptions: {debuggerAddress: localhost:62776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9c30590ea4159d59c7ebed7422d45b01
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: /var/folders/13/12p46rc91jj...}, goog:chromeOptions: {debuggerAddress: localhost:58342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e0abd37c7dbb2d8532b2baab340b764
+*** Element info: {Using=xpath, value=//a[@id='NAV_CONTACT_US']}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -40,9 +44,11 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at hw11Q2selenium.I_use_of_get_text_method.AccountDropDown(I_use_of_get_text_method.java:27)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at selfPrectice.A_use_of_right_click_acction.rightClick(A_use_of_right_click_acction.java:29)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -73,15 +79,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AccountDropDown -->
-        <test-method status="PASS" signature="tearUp()[pri:0, instance:hw11Q2selenium.I_use_of_get_text_method@3cb1ffe6]" name="tearUp" is-config="true" duration-ms="80" started-at="2021-09-17T02:39:19 EDT" finished-at="2021-09-17T02:39:19 EDT">
+        </test-method> <!-- rightClick -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:selfPrectice.A_use_of_right_click_acction@3cb1ffe6]" name="tearUp" is-config="true" duration-ms="76" started-at="2021-10-13T17:06:17 EDT" finished-at="2021-10-13T17:06:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- hw11Q2selenium.I_use_of_get_text_method -->
+      </class> <!-- selfPrectice.A_use_of_right_click_acction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

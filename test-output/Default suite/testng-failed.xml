@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw11Q2selenium.I_use_of_get_text_method">
+      <class name="selfPrectice.A_use_of_right_click_acction">
         <methods>
-          <include name="setUp"/>
-          <include name="AccountDropDown"/>
           <include name="tearUp"/>
+          <include name="rightClick"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- hw11Q2selenium.I_use_of_get_text_method -->
+      </class> <!-- selfPrectice.A_use_of_right_click_acction -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

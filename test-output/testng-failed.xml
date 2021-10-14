@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selfPrectice.A_use_of_right_click_acction">
+      <class name="hw12Q2selenium.L_javascript_enter_and_send">
         <methods>
-          <include name="tearUp"/>
-          <include name="rightClick"/>
           <include name="setUp"/>
+          <include name="sendAndEnterByjsExecutor"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- selfPrectice.A_use_of_right_click_acction -->
+      </class> <!-- hw12Q2selenium.L_javascript_enter_and_send -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

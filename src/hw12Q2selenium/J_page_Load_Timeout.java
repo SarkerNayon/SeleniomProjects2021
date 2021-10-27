@@ -23,7 +23,7 @@ public class J_page_Load_Timeout {
 	public void pageTimeOutMethod() {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(10000, TimeUnit.MILLISECONDS);
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.get("https://www.bankofamerica.com/");
 
 		// here my question is , if i use pageload timeout instaed of thread.sleep.. the
